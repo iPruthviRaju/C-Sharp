@@ -10,6 +10,12 @@ namespace _0002_VarVsDynamic
     {
         static void Main(string[] args)
         {
+            var i = 0;
+            //var i; this is not possible since var needs data type
+            //i = "string1"; this is not possible
+            dynamic j;
+            j = 0;
+            j = "string2";
         }
     }
 }
