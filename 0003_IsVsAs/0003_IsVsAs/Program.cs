@@ -10,6 +10,13 @@ namespace _0003_IsVsAs
     {
         static void Main(string[] args)
         {
+
+            List<string> snap = null;
+            if(snap == null || !snap.Any())
+            {
+                Console.WriteLine("null");
+                Console.ReadLine();
+            }
             //IS Operator:
 
             //The IS operator checks whether the type of an given object is compatible with the new object type.It returns boolean type value: true if given object is compatible with new one, else false.In this way IS operator help you to do safe type casting.
@@ -23,7 +30,7 @@ namespace _0003_IsVsAs
                                             //we can also use it 
             if (obj is Employee)
             {
-                Employee emp = (Employee)obj;
+                Employee emp1 = (Employee)obj;
                 // TO DO:
             }
 
