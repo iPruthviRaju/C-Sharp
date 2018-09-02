@@ -1,0 +1,4 @@
+- Partial class – Allows its members to be divided or shared with multiple .cs files. It is denoted by the keyword Partial.
+- Sealed class – It is a class which cannot be inherited. To access the members of a sealed class, we need to create the object of the class.  It is denoted by the keyword Sealed.
+- Abstract class – It is a class whose object cannot be instantiated. The class can only be inherited. It should contain at least one method.  It is denoted by the keyword abstract.
+- Static class – It is a class which does not allow inheritance. The members of the class are also static.  It is denoted by the keyword static. This keyword tells the compiler to check for any accidental instances of the static class.
